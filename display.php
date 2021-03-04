@@ -7,7 +7,7 @@
     $result = $req->fetchAll();
 
     for($i = 0; $i < count($result); $i++) {
-        echo $result[$i];
+        echo $result[$i]['email_etudiant'].' <br/>';
     }
 
 ?>

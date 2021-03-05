@@ -8,7 +8,10 @@
 
     echo "Nombre Etudiant ".count($result);
     for($i = 0; $i < count($result); $i++) {
-        echo "<p> Email </p>".$result[$i]['email_etudiant'];
+        echo "</br> Firstname: ".$result[$i]['prenom_etudiant'];
+        echo " Lastname: ".$result[$i]['nom_etudiant'];
+        echo " faculty: ".$result[$i]['faculte_etudiant'];
+        echo " Email: ".$result[$i]['email_etudiant']."</br>";
     }
 
 ?>

@@ -16,6 +16,7 @@
             </center>";
     }
 
+    // form input
     echo "
         <center>
             <form action='' method='get'>

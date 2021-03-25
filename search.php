@@ -43,7 +43,10 @@
                         ."</br></br>
                     </center>";
             }
+        } else {
+            echo"<center style='color:red;'> No data found </center>";
         }
+        
     }
 
 ?>
